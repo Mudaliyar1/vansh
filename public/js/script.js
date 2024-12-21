@@ -12,7 +12,7 @@ gsap.from('.fluid1',{
     scrollTrigger:{
         trigger:'.fluid1',
         scroller:'body',
-        markers:true,
+        // markers:true,
         start:'bottom 10%',
         end:'top 30%',
         scrub:3
@@ -28,7 +28,7 @@ gsap.from('.fluid2',{
     scrollTrigger:{
         trigger:'.fluid2',
         scroller:'body',
-        markers:true,
+        // markers:true,
         start:'top 10%',
         end:'top 30%',
         scrub:5
@@ -44,7 +44,7 @@ gsap.from('.fluid3',{
     scrollTrigger:{
         trigger:'.fluid3',
         scroller:'body',
-        markers:true,
+        // markers:true,
         start:'top 80%',
         end:'top 30%',
         scrub:5
@@ -58,7 +58,7 @@ gsap.from('.paras .animation',{
     scrollTrigger:{
         trigger:'.paras .animation',
         scroller:'body',
-        markers:true,
+        // markers:true,
         start:'top 90%',
         end:'top 80%',
         scrub:2
